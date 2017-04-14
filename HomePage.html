@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+        <title>Seiko's Portfolio</title>
+        <meta content="ALL" name="Seiko's Portfolio" />
+        <meta name="title" content="Seiko's website." />
+        <meta name="keywords" content="artist, japanese, seiko motomura, graphic design, web design">
+        
+<!-- ogp -->
+<meta property="og:title" content="SEIKO WEB | Seiko's website" >
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://seiko-motomura.com/">
+<meta property="og:image" content="http://seiko-motomura.com/images/mainImages"> 
+<meta property="og:site_name" content="SEIKO WEB | Seiko's website" >
+<meta property="og:description" content="This is Seiko's Portfolio who is an Artist, a freelance Graphic Designer,Web Designer.">
+        
+<!-- //ogp -->
+        
+        <link rel="shortcut icon" href="images/icon.png" />
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:100,400" type= "text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300" type= "text/css" rel="stylesheet">
+        <link href = "particle.css" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" href="scroll/aos.css" />
+        <script src="scroll/aos.js"></script> 
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+             }
+    </style>
+        
+<!-- jQuery.jsの読み込み -->
+<!-- javascript -->
+<script src="/dist/aos.js"></script>
+        
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+
+
+<!-- スムーズスクロール部分の記述 -->
+<script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+        
+    </head>
+        <body>
+        
+      
+        <div id="hoge">
+ 
+        <script src="hoge/particles.js"></script>
+        <script src="hoge/setting.js"></script>
+        
+       <div id = "margine">
+            
+            <div id="Seiko">
+                <img src ="images/NameIcon.png">
+            </div>
+            
+         
+            <div id="FBicon">
+                <a class = "FBImage" href = "https://www.facebook.com/seiko.motomura">
+                <img src ="images/FBicon.png" alt = "seiko Facebook">
+                </a>     
+            </div>
+            
+            <div id = "linkedIn">
+                <a class = "LinkedInImage" href = "https://www.linkedin.com/in/seiko-motomura-7a3969b0/">
+                <img src="images/LinkedInIcon.png" alt="Seiko's LinkedIn" >
+                </a>      
+            </div>
+                
+                
+            <div id = "e-mailIcon">
+                <a class = "MailImage" href = "mailto:seiko.motomura@live.jp">
+                <img src ="images/emaiIcon.png"  alt = "seiko's hotmail">
+                </a>
+            </div>
+        </div>
+            
+    <div id ="floating">
+        
+            <div id = "circle0">
+            <a href="#seikoImage"><img src ="images/circle.png" height= "100px" width="auto"></a>
+            </div>
+            <div id = "circle1">
+            <a href="#TFP"><img src ="images/circle.png" height= "100px" width="auto"></a>
+            </div>
+            <div id = "circle2">
+            <a href="#objectInMotion"><img src ="images/circle.png"> </a>
+            </div>
+            <div id = "circle3">
+            <a href="#dream"><img src ="images/circle.png"> </a>
+            </div>
+            <div id = "circle4">
+            <a href="#videoCaption"><img src ="images/circle.png"> </a>
+            </div>
+            <div id = "circle5">
+            <a href="#art"><img src ="images/circle.png"> </a>
+            </div>
+            <div id = "circle6">
+            <a href="#who"><img src ="images/circle.png"> </a>　
+            </div>
+
+            
+    </div>
+        </div>    
+    
+        
+   
+ 
+	<div class="bg_fixed2">
+        <div id = "TFP">
+            <h1  data-aos="fade-up"> True Facade Picture </h1>
+            <h4  data-aos="fade-up"> Designer</h4>
+            <hr  data-aos="fade-up">
+            <p  data-aos="fade-up">TFP which is an independent film company in Mankato. The aim was to show their awesome film works with a highly interactive scrolling service page, sofisticated images and video.</p>
+            <img class = "subImage" src ="images/TFPlogo.png"  data-aos="fade-left">
+         </div>
+    </div>
+    
+	<div class="scroll">
+        
+        
+        
+      <div id = "video1">
+            <video width="547px" height="auto" controls>
+                <source src="images/ObjectInMotion.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+            </video>   
+      </div> 
+        
+        <div id ="objectInMotion">
+            <h1  data-aos="fade-up" >Object in Motion</h1>
+            <h5  data-aos="fade-up"> Designer</h5>
+            <hr  data-aos="fade-up">
+            <p  data-aos="fade-up"> The aim of this project is to illustrate kinetic art on a webpage. I focused on an object's material and its visual movements. I created gif animation by using photoshop and editing Hover animation to unique objects</p>
+            
+        <div id="wheel">
+            <img src="images/wheel.png" width="150px" height="auto"  data-aos="fade-left" alt="image of wheel">
+        </div>
+        </div>
+       
+    </div>
+        
+    <div class="bg_fixed3">
+        <div id = "dream">
+            <h1  data-aos="fade-up">D.R.E.A.M.</h1>
+            <h2  data-aos="fade-up">Designer in Web Development team</h2>
+            <hr  data-aos="fade-up">
+            <p  data-aos="fade-up">New organization: DREAM<br>(Data Resources for Eager and Analytical Minds)<br> The aim of this project was to design and create a brand new logo, homepage, and flyer to illustrate the concepts of this organization.</p>
+            
+            <img class = "subImage" src = "images/dreamFlyer.png"  data-aos="fade-left" alt = "this is dream flyer image">
+        </div>       
+    </div>
+        
+    <div class="scroll">
+  
+            <video width="550px" height="auto" controls>
+                <source src="images/PROJECT%201.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+            </video> 
+    
+        <div id = "videoCaption">
+            <h1  data-aos="fade-up">Point of No Return</h1>
+            <h2  data-aos="fade-up"> Animation Design</h2>
+            <hr  data-aos="fade-up">
+            <p  data-aos="fade-up"> An animation created by using Illustrator and After Effect.<br><br>
+                Concept for this animation: illustrating images, integrating ideas 
+                for the background music by Roger Subirana, who is a Spanish composer                 and musical producer in Barcelona. </p>
+            <div id ="sketch">
+                <img src ="images/project1Sketch.png"  data-aos="fade-left" alt ="project1 sketch">
+            </div>
+            
+        </div>
+            
+    </div>   
+        
+    <div class="bg_fixed4">
+        <div id ="art" >
+            <h1  data-aos="fade-up">Visual Art</h1>
+            <h2  data-aos="fade-up"> Drawing, Sculpture, Graphic Design </h2>
+            <hr  data-aos="fade-up">
+            <p  data-aos="fade-up"> Today, Visual Arts applies to many different forms such as drawing, painting, sculpture, printmaking, and filmmaking. Being multi-skilled is important to create a unique design.</p>
+            <h11 data-aos="fade-up"> Check Art Works here</h11>
+            <div id ="insta">
+                <a class = "insta" href = "https://www.instagram.com/seikoartwork/">
+                <img src ="images/insta.png" data-aos="fade-left" alt ="insta imgage">
+                </a>  
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="scroll2">
+        <div id = "margine">
+        <div id = "who"  data-aos="fade-up">
+            <h3  data-aos="fade-up">Who is this?</h3>
+            <p3  data-aos="fade-up">A Designer based in USA, Japan. Highly creative and multitalented freelance Designer <br>capable of solving visual related problems. <br>Also adept at drawing, sculpting, <br>graphic and web design.</p3>
+        <div id = "seiko"  data-aos="fade-up">
+            <div id ="word">
+                <a class = "konnichiwa" href = "mailto:seiko.motomura@live.jp">
+                <img src="images/konnichiwa.png">
+                
+                </a>
+            </div>
+            <img src = "images/seiko1.png" height = "100px" width="auto"  alt="seiko's picture">
+            
+        </div>
+        </div>
+        </div>
+        
+    </div> 
+     
+<script>
+// aosの初期化
+AOS.init();
+
+</script>
+
+  
+    </body>
+
+    
+
+
+<html/>

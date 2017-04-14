@@ -1,0 +1,477 @@
+<style type="text/css">
+
+/*this is for setting circles */
+.bg_fixed1 {
+	height: 0px;
+	background-color: black;
+
+}
+
+
+/* additing effects to floating group and each circles*/
+
+#floating {
+    top: 200px;
+    position: fixed;
+    right:100px;
+    z-index: 6;
+}
+
+#circle0{     
+    opacity: 0.3;
+}
+
+#circle0:hover{
+    opacity: 1;
+    text-align: center;
+    border-radius: 50%;
+    transition:0.5;
+    display:inline;
+    z-index: 7;
+}
+
+#circle1{     
+    opacity: 0.3;
+}
+
+#circle1:hover{
+    opacity: 1;
+    border-radius: 50%;
+    transition:0.5;
+    display:inline;
+    z-index: 7;
+}
+
+#circle2{     
+    opacity: 0.3;
+}
+
+#circle2:hover{
+    opacity: 1;
+    border-radius: 50%;
+    transition:0.5;
+    display:inline;
+    z-index: 7;
+}
+
+#circle3{     
+    opacity: 0.3;
+}
+
+#circle3:hover{
+    opacity: 1;
+    border-radius: 50%;
+    transition:0.5;
+    display:inline;
+    z-index: 7;
+}
+
+#circle4{     
+    opacity: 0.3;
+}
+
+#circle4:hover{
+    opacity: 1;
+    border-radius: 50%;
+    transition:0.5;
+    display:inline;
+    z-index: 7;
+}
+
+#circle5{     
+    opacity: 0.3;
+}
+
+#circle5:hover{
+    opacity: 1;
+    border-radius: 50%;
+    transition:0.5;
+    display:inline;
+    z-index: 7;
+}
+
+#circle6{    
+  
+    opacity: 0.3;
+}
+
+#circle6:hover{
+    opacity: 1;
+    border-radius: 50%;
+    transition:0.5;
+    display:inline;
+    z-index: 7;
+}
+
+
+/* Font *****************************/
+
+h1{
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    letter-spacing: 0.05em;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 33px;
+    z-index: 3;
+}
+
+
+
+h2{
+    color: #343634;
+    text-align: left;
+    margin-left: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+h4{
+    color: #fa0710;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+h5{
+    color: rgba(0,0,0,0.7);
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 50px;
+    font-size: 20px; 
+}
+
+
+hr{
+    display:block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 50px;
+    margin-right: 350px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 200px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 35px;
+    font-size: 19px;
+    word-spacing: 0.2px;
+    z-index: 3;  
+}
+/***All sub images in text boxes******/
+
+
+.subImage{
+    margin-left: 50px;
+    opacity: 1;
+}
+
+
+/*****TFR background****************/
+
+ 
+.bg_fixed2 {
+    position: inherit;
+	height: 800px;
+    background-color: #0f0e0e;
+	background-image: url(images/TrueFacade2.png);
+	background-size:auto;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: left;
+	z-index: 4;
+}
+
+
+#TFP{
+    position: absolute;
+    background-color:rgba(26, 26, 26, 0.5);
+    height: 800px;
+    width: 550px;
+    right: 0px;
+}
+
+/******Dream backgound************/
+
+.bg_fixed3 {
+	height: 800px;
+    background-color: rgba(38, 157, 245, 0.5);
+	background-image: url(images/dream2.png);
+	background-size: auto;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: left;
+	z-index: 2;
+}
+
+#dream{
+    position: absolute;
+    background-color:rgba(128, 195, 237, 0.81);
+    height: 800px;
+    width: 550px;
+    right: 0px;
+}
+
+/******Art background***************/
+
+.bg_fixed4 {
+	height: 800px;
+	background-image: url(images/Book2.png);
+    background-color: rgba(216, 148, 128, 0.83);
+	background-size:auto;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: left;
+	z-index: 2;
+}
+
+#art{
+    position: absolute;
+    background-color:rgba(216, 148, 128, 0.89);
+    height: 800px;
+    width: 550px;
+    right: 0px;
+}
+
+#insta{
+    position: absolute;
+    top:430px;
+    margin-left: 250px;
+}
+
+h11{
+    color: white;
+    position: absolute;
+    top:450px;
+    margin-left: 50px;
+}
+
+/******first,Video,and last pages background*******/
+
+.scroll {
+	height: 800px;
+	background-color: rgba(0,0,0,0.2);
+    background-position: center center;
+    background-repeat: no-repeat;
+	z-index: 3;
+    
+}
+
+.scroll2 {
+	height: 800px;
+	background-color: rgba(0,0,0,0.2);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: auto;
+	z-index: 3;
+    
+}
+
+/******inside of scroll*******/
+
+#hoge{
+    background-size:contain;
+    background-color:#303650;
+    z-index: 3;
+}
+
+#Seiko{
+    position: absolute;
+	top: 160px;
+    left: 350px;
+    z-index: 7;
+    
+}
+#FBicon{
+    opacity: 0.5;
+    position: absolute;
+    text-align: middle;
+	top: 298px;
+    left: 500px;   
+    border-radius: 50%;
+    z-index: 8;
+}
+
+#FBicon:hover {
+	opacity: 1;
+    transition:0.5;
+    display: inline;
+
+}
+
+
+#linkedIn {
+   position: absolute;
+    opacity: 0.5;
+	top: 300px;
+    left: 600px;
+    display: inline;
+    z-index: 8;
+    
+}
+
+#linkedIn:hover {
+	opacity: 1;
+    transition:0.5;
+    display: inline;
+}
+
+#e-mailIcon{
+    opacity: 0.5;
+    position: absolute;
+	top: 300px;
+    left: 700px;
+    z-index: 8;
+}
+
+#e-mailIcon:hover {
+	opacity: 1;
+    transition:0.5;
+    display: inline;
+}
+/*inside scroll 2*************/
+
+#video1{
+    position: absolute;
+    top: -1600px;
+    left: 0px;
+    text-align: center;
+    box-shadow: 10px 10px 5px #888888; 
+    z-index: 5;
+}
+
+#objectInMotion{
+    position: absolute;
+    background-color:rgba(121, 118, 114, 0.5);
+    height: 800px;
+    width: 550px;
+    right: 0px;
+}
+
+#wheel{
+    position:absolute;
+    left:200px;
+ 
+}
+
+#wheel:hover {
+    animation: hover2 10s;
+    -webkit-animation: hover2 10s;
+    
+}
+
+	@-webkit-keyframes hover2 {
+		from {
+			transform: rotate(0deg);
+			}
+		to {
+			transform: rotate(360deg);
+			}
+	}
+
+
+/*inside scroll 3*************/
+video{
+    position: absolute;
+    top: 3250px;
+    left: 100px;
+    text-align: center;
+    box-shadow: 10px 10px 5px #888888; 
+    z-index: 4;
+}
+
+#videoCaption{
+    position: absolute;
+    background-color:rgba(28, 28, 29, 0.5);
+    height: 800px;
+    width: 550px;
+    right: 0px;
+}
+
+#sketch{
+    margin-left: 200px;
+}
+
+/*inside scroll 4*************/
+
+
+
+#who{
+    position: absolute;
+    background-color:rgba(46, 46, 237, 0.0);
+    height: 800px;
+    width: 400px;
+    left: 420px;
+    z-index: 3;
+}
+
+h3{
+    color:black;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    z-index: 3;
+    
+}
+p3{
+    text-align: center center;
+    padding: 20px;
+    color:gray;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    font-size: 19px;
+    word-spacing: 0.5px;
+    z-index: 3;  
+}
+
+#seiko{
+    position: absolute;
+    top:280px;
+    left:100px;
+    opacity: 0.5;
+    display: inline;
+    z-index: 3;
+}
+
+#word{
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    opacity: 1;
+    opacity: 0;
+    z-index: 7
+}
+
+#word:hover{
+    opacity: 1;
+}
+
+
+#seiko:hover {
+	opacity: 1;
+    transition:0.5;
+    display: inline;
+    z-index: 3;
+
+}
+
+#margine{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
